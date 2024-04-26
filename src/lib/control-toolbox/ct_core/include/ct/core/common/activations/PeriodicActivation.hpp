@@ -5,6 +5,9 @@
 
 #include "../activations/ActivationBase.hpp"
 #include <ct/core/internal/traits/TraitSelectorSpecs.h>
+#include <boost/property_tree/ptree.hpp>
+#include <boost/property_tree/info_parser.hpp>
+#include <iostream>
 
 namespace ct {
 namespace core {

@@ -40,7 +40,8 @@
 #pragma once
 
 #include <tinyxml2.h>
-#include <control-toolbox/ct_optcon/include/ct/optcon/optcon.h>
+//#include <control_toolbox/ct_core/include/ct/core/core.h>
+#include <ct/optcon/optcon.h>
 #include <matrix/matrix/math.hpp>
 #include <iostream>
 #include <string>

@@ -32,6 +32,7 @@
 ############################################################################
 
 # Find the Eigen3 package
+
 find_package(Eigen3 REQUIRED)
 find_package(OpenMP)
 find_library(TINYXML2_LIBRARY NAMES tinyxml2)

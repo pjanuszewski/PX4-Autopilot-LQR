@@ -5,7 +5,7 @@ Licensed under the BSD-2 license (see LICENSE file in main directory)
 
 #pragma once
 
-#include <cppad/cg.hpp>
+
 #include <cppad/cppad.hpp>
 #include <cppad/example/cppad_eigen.hpp>
 

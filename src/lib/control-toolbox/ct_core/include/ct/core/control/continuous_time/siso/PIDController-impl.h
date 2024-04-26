@@ -2,7 +2,8 @@
 This file is part of the Control Toolbox (https://github.com/ethz-adrl/control-toolbox), copyright by ETH Zurich
 Licensed under the BSD-2 license (see LICENSE file in main directory)
 **********************************************************************************************************************/
-
+#include "PIDController.h"
+#include <ct/core/types/Time.h> // or the appropriate header file where 'Time' is defined
 #pragma once
 
 namespace ct {
