@@ -91,7 +91,10 @@ function(px4_add_common_flags)
 		-Wno-unused-parameter
 
 		)
-
+	# Disable -Wfloat-equal when using GCC or Clang
+	if(("${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU") OR ("${CMAKE_CXX_COMPILER_ID}" MATCHES "Clang"))
+			add_compile_options(-Wno-float-equal)
+		endif()
 	# compiler specific flags
 	if (("${CMAKE_CXX_COMPILER_ID}" MATCHES "Clang") OR ("${CMAKE_CXX_COMPILER_ID}" MATCHES "AppleClang"))
 

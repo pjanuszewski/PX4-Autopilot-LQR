@@ -2,9 +2,11 @@
 This file is part of the Control Toolbox (https://github.com/ethz-adrl/control-toolbox), copyright by ETH Zurich.
 Licensed under the BSD-2 license (see LICENSE file in main directory)
 **********************************************************************************************************************/
-
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wfloat-equal"
+#include <Eigen/Core>
+#pragma GCC diagnostic pop
 #pragma once
-
 #include "Plane.h"
 
 namespace ct {
